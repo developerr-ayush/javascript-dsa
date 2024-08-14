@@ -17,6 +17,4 @@ var productExceptSelf = function (nums) {
   return ans;
 };
 console.log(productExceptSelf([1, 2, 3, 4]));
-// console.log(productExceptSelf([-1, 1, 0, -3, 3]));
-// -1 1 0 -3 3
-// 0 0 0 3 9
+console.log(productExceptSelf([-1, 1, 0, -3, 3]));
